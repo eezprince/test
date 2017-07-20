@@ -33,8 +33,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="serviceprovider, Version=0.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Git\SpeechCore\private\dev\speech\tts\shenzhou\src\serviceprovider\Engine\Build.Internal\obj\amd64\serviceprovider.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Speech">
+      <HintPath>..\..\..\corextcache\SpeechCore.StaticDependencies.1.0.0\tts\shenzhou\external\SpeechFx\System.Speech.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
